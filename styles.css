@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:lightseagreen;
+}
+
+/*Navigation*/
+
+
+a:link {
+    color: darkorchid;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: darkorchid;
+}
+
+.navbar-brand {
+    font-family: 'Berkshire Swash', cursive;
+    color: darkorchid;
+    text-shadow: 1px 1px darkred;
+    padding-left: 15px;
+}
+
+.nav-item {
+    color: darkorchid;
+}
+
+.nav-link {
+    color: darkorchid;
+}
+
+.navbar {
+    font-family: 'Berkshire Swash', cursive;
+    color: darkorchid;;
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 4px 4px black;
+    font-size: 4em;
+    padding-top: 50px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.name {
+    font-size: 6em;
+    text-shadow: 4px 4px darkred;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.intro {
+    text-align: center;
+    color:darkgreen;
+    font-family: 'Bad Script', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 70px;
+    padding-right: 70px;
+    border: 5px darkred solid;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 80%;
+    margin: auto;
+}
+
+
+.get-to-know {
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    color: darkred;
+    padding-top: 75px;
+}
+
+/*Form*/
+.row {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+/*Thank you page*/
+.thank-you-body {
+    background-image: url(images/smiley-face.jpg);
+    background-size: cover;
+    background-attachment:initial;
+    color: black;
+}
+
+.thankyou {
+    text-align: center;
+    color: darkred;
+    font-size: 5em; 
+    font-style: italic;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+  .thank-you-title {
+    font-family: 'Berkshire Swash', cursive;
+    color:whitesmoke;
+    text-shadow: 3px 3px black;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 50px;
+  }
+  /*end of thank you page*/
+  
+ 
+.container-fluid {
+    display:grid;
+}
+
+.col-sm-3 {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.col-sm-4 {
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+}
+
+/*Goals Page*/
+.goals-list {
+    text-align: center;
+    color: darkred;
+    font-family: 'Bad Script', cursive;
+}
+
+.goals {
+    text-align: center;
+    color: darkred;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+
+p {
+    color: darkred;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+}
+
+.intro-goals {
+    font-family: 'bad script', cursive;
+}
+
+.grid-container {
+    display: grid;
+}
+
