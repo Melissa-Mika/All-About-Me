@@ -4,28 +4,27 @@
 }
 
 body {
-    background-color:lightseagreen;
+    background-color: rgb(255, 203, 221);
 }
 
 /*Navigation*/
-
-
 a:link {
-    color: darkorchid;
+    color: rgb(0, 109, 119);
+    text-decoration: none;
 }
 
+
 a:visited {
-    color: darkred;
+    color: rgb(0, 109, 119);
 }
 
 a:hover {
-    color: darkorchid;
+    color: turquoise;
 }
 
 .navbar-brand {
     font-family: 'Berkshire Swash', cursive;
-    color: darkorchid;
-    text-shadow: 1px 1px darkred;
+    color: rgb(255, 203, 221);
     padding-left: 15px;
 }
 
@@ -39,15 +38,19 @@ a:hover {
 
 .navbar {
     font-family: 'Berkshire Swash', cursive;
-    color: darkorchid;;
+    color: rgb(87, 93, 144);
 }
 
+.dropdown-item {
+    color: rgb(0, 109, 119);
+}
 
+/*Home Page*/
 h1 {
     text-align: center;
     color: white;
     font-weight: bold;
-    text-shadow: 4px 4px black;
+    text-shadow: 4px 4px rgb(0, 109, 119);
     font-size: 4em;
     padding-top: 50px;
     font-family: 'Berkshire Swash', cursive;
@@ -55,7 +58,7 @@ h1 {
 
 .name {
     font-size: 6em;
-    text-shadow: 4px 4px darkred;
+    text-shadow: 5px 5px rgb(0, 109, 119);
     color: white;
     text-align: center;
     font-weight: bold;
@@ -65,13 +68,14 @@ h1 {
 
 .intro {
     text-align: center;
-    color:darkgreen;
+    color: rgb(0, 109, 119);
     font-family: 'Bad Script', cursive;
     font-size: 1.5em;
     font-weight: bold;
     padding-left: 70px;
     padding-right: 70px;
-    border: 5px darkred solid;
+    border: 5px solid rgb(0, 109, 119);
+    border-radius: 15px;
     padding-top: 25px;
     padding-bottom: 25px;
     width: 80%;
@@ -82,7 +86,7 @@ h1 {
 .get-to-know {
     text-align: center;
     font-family: 'Berkshire Swash', cursive;
-    color: darkred;
+    color: rgb(0, 109, 119);
     padding-top: 75px;
 }
 
@@ -92,6 +96,105 @@ h1 {
     padding-bottom: 40px;
     padding-left: 75px;
     padding-right: 75px;
+    }
+
+.form-label {
+    color: rgb(0, 109, 119);
+}
+
+  
+/*Stuff I Like Page*/ 
+.moreabout {
+    text-shadow: 4px 4px rgb(0, 109, 119);
+}
+
+.container-fluid {
+    display:grid;
+    border: 5px 5px rgb(0, 109, 119);
+}
+
+.col-sm-3 {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: rgb(0, 109, 119);
+}
+
+.col-sm-4 {
+    padding-left: 4%;
+    padding-right: 4%;
+    color: rgb(0, 109, 119);
+}
+
+.like {
+    border: 8px solid rgb(0, 109, 119);
+    border-radius: 15px;
+}
+
+/*Goals Page*/
+
+.goals-container {
+    border: 5px solid rgb(0, 109, 119);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+
+.goals-title {
+    text-shadow: 6px 6px rgb(0, 109, 119);
+    padding-bottom: 50px;
+}
+
+.goals-list {
+    text-align: center;
+    color: rgb(0, 109, 119);
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    padding-top: 50px;
+
+}
+
+.goals {
+    text-align: center;
+    color: rgb(0, 109, 119);
+    font-family: 'Bad Script', cursive;
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    }
+
+
+p {
+    color: rgb(0, 109, 119);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+}
+
+.intro-goals {
+    font-family: 'bad script', cursive;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 5px solid rgb(0, 109, 119);
+    border-radius: 15px;
+    font-size: 1.5em;
+    color: rgb(0, 109, 119);
+    padding: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.footer, .email {
+    color: rgb(0, 109, 119);
+    padding-top: 25px;
 }
 
 /*Thank you page*/
@@ -120,49 +223,4 @@ h1 {
     padding-top: 50px;
   }
   /*end of thank you page*/
-  
- 
-.container-fluid {
-    display:grid;
-}
-
-.col-sm-3 {
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-.col-sm-4 {
-    padding-left: 3.5%;
-    padding-right: 3.5%;
-}
-
-/*Goals Page*/
-.goals-list {
-    text-align: center;
-    color: darkred;
-    font-family: 'Bad Script', cursive;
-}
-
-.goals {
-    text-align: center;
-    color: darkred;
-    font-family: 'Berkshire Swash', cursive;
-}
-
-
-p {
-    color: darkred;
-    font-size: 1.5em;
-    font-weight: bold;
-    font-family: 'Berkshire Swash', cursive;
-    text-align: center;
-}
-
-.intro-goals {
-    font-family: 'bad script', cursive;
-}
-
-.grid-container {
-    display: grid;
-}
 
